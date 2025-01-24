@@ -1,0 +1,83 @@
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: beige;
+}
+
+.container{
+    height: 85vh;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border: 0.5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Header/Logo Title/Nav/Footer */
+.banner {
+  font-size: 20px;
+  border-bottom: 3px solid cornflowerblue;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 16px;
+  align-content: center;
+}
+.logo {
+  grid-row: 1/-1;
+  width: 90px;
+  padding: 10px;
+  align-self: center;
+  justify-self: center;
+}
+.title {
+  align-self: center;
+  padding-bottom: 10px;
+}
+.title h1 {
+  color: navy;
+  margin: 0;
+}
+.title p {
+  color: darkgray;
+  margin: 0;
+}
+
+nav{
+    border-bottom: 3px solid cornflowerblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    justify-self: center;
+    display: inline;
+    border-right: 2px solid darkgray;
+}
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+nav a{
+    color: dodgerblue;
+    font-weight: 400;
+}
+
+footer{
+    border-top: 3px solid cornflowerblue;
+    text-align: end;
+}
+
+/* Main */
+main{
+   height: 78%;
+   margin: 0;
+   padding: 0;
+}
