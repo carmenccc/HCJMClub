@@ -28,7 +28,7 @@
     </tbody>
 </table>    
 
-<form action="HCJMAdmin.jsp" method="get">
+<form action="HCJMAddBook.jsp" method="get">
      <button type="submit">Add Book</button>
 </form>
     
