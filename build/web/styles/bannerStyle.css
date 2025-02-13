@@ -12,6 +12,7 @@ body {
     padding: 20px;
     border: 0.5px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
 }
 
 /* Header/Logo Title/Nav/Footer */
@@ -43,7 +44,9 @@ body {
   color: darkgray;
   margin: 0;
 }
-
+h2{
+    font-weight: 800;
+}
 nav{
     border-bottom: 3px solid cornflowerblue;
 }
@@ -80,4 +83,10 @@ main{
    height: 78%;
    margin: 0;
    padding: 0;
+   
+}
+
+/* Table */
+th, td {
+    border: 1px solid black;
 }
